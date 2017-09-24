@@ -3,13 +3,6 @@
 	
 	jQuery(document).on('ready', function(){
 	
-		/*PRELOADER JS*/
-		$(window).on('load', function() { 
-			$('.status').fadeOut();
-			$('.preloader').delay(350).fadeOut('slow'); 
-		}); 
-		/*END PRELOADER JS*/		
-		
 		/*START MENU JS*/
 			 if ($(window).scrollTop() > 200) {
               $('.fixed-top').addClass('menu-bg');
