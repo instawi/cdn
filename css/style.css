@@ -3,3 +3,13 @@ body {
     color: #666668;
     font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
 }
+.logo{
+    background:url(../img/logo.png) no-repeat;
+    width:72px;
+}
+.logo a {
+    display: block;
+    height: 75px;
+    overflow: hidden;
+    text-indent: 100%;
+}
