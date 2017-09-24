@@ -21,3 +21,6 @@ a:hover,a:focus {
     overflow: hidden;
     text-indent: 100%;
 }
+.shadowA {
+    box-shadow: 5px 5px 2px #888888;
+}
