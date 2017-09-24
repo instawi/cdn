@@ -4,6 +4,10 @@ body {
     color: #666668;
     font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
 }
+a {
+    color: #00a996;
+    text-decoration: none;
+}
 .logo{
     background:url(../img/logo.png) no-repeat;
     width:72px;
