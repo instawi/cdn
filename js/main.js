@@ -23,4 +23,4 @@ f);c.play(d.duration)}else jQuery.isFunction(g)&&g()}})();(function(){var d=func
 jQuery.fn.jplist.animation.Timeline=function(a,b){this.observer=b;this.start=null;this.progress=0;this.handler=this.delay=null;this.delay=1E3/a};jQuery.fn.jplist.animation.Timeline.prototype.play=function(a){e(this,a)};jQuery.fn.jplist.animation.Timeline.prototype.stop=function(){d(this)}})();(function(){jQuery.fn.jplist.animation.fade={};jQuery.fn.jplist.animation.fade.before=function(d,e,a,b){};jQuery.fn.jplist.animation.fade.effect=function(d,e,a,b,c){e.find(d.itemPath).css({opacity:(100-c)/100})};jQuery.fn.jplist.animation.fade.after=function(d,e,a,b){e.empty();b.css({opacity:1});e.append(b)}})();
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
-})
+});
